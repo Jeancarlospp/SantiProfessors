@@ -2,7 +2,7 @@
  * Configuración de la aplicación
  */
 const CONFIG = {
-    API_URL: 'http://localhost:3000/api',
+    API_URL: 'https://santiprofessors.onrender.com/',
     ENDPOINTS: {
         STATISTICS: '/professors/statistics',
         PROFESSORS: '/professors/experience'

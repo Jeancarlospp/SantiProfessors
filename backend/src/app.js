@@ -21,7 +21,7 @@ class App {
     configureMiddleware() {
         // CORS
         this.app.use(cors({
-            origin: '*', // En producción, especificar el dominio de Vercel
+            origin: 'https://santiprofessors-fhztleczs-jeancarlos-projects-8f89f917.vercel.app/', // En producción, especificar el dominio de Vercel
             methods: ['GET', 'POST', 'PUT', 'DELETE'],
             allowedHeaders: ['Content-Type', 'Authorization']
         }));
